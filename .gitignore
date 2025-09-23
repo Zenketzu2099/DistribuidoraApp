@@ -1,0 +1,75 @@
+# ======================================
+# Archivos generados automáticamente
+# ======================================
+*.iml
+.gradle/
+local.properties
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# ======================================
+# Build outputs
+# ======================================
+build/
+app/build/
+captures/
+
+# ======================================
+# Archivos de configuración local
+# ======================================
+.DS_Store
+*.log
+
+# ======================================
+# Claves y certificados
+# ======================================
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+*.crt
+
+# ======================================
+# Firebase y servicios externos
+# ======================================
+# 🔴 MUY IMPORTANTE: nunca subir este archivo
+app/google-services.json
+
+# Archivos de configuración opcional
+*.env
+.env.*
+*.secret
+*.credentials
+
+# ======================================
+# Android NDK / CMake
+# ======================================
+.externalNativeBuild/
+.cxx/
+
+# ======================================
+# IntelliJ / Android Studio
+# ======================================
+.idea/*
+!*.gitignore
+*.ipr
+*.iws
+
+# ======================================
+# Cache Gradle y Wrapper
+# ======================================
+.gradle
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# ======================================
+# Testing
+# ======================================
+/test-output/
