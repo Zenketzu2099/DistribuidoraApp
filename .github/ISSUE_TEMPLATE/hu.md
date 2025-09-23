@@ -9,8 +9,8 @@ Como usuario registrado, quiero poder ingresar con mi correo y contraseña, para
 - Debe validarse con Firebase Authentication.
 
 **Evidencias:**  
-![Login exitoso](evidencias/login_exitoso.png)  
-![Usuario en Firebase](evidencias/firebase_usuario.png)
+![Login exitoso](../../evidencias/login_exitoso.png)  
+![Usuario en Firebase](../../evidencias/firebase_usuario.png)
 
 ---
 
@@ -23,7 +23,7 @@ Como usuario, quiero recibir un mensaje claro cuando ingreso mal mis credenciale
 - No se debe acceder al menú principal.
 
 **Evidencias:**  
-![Error de login](evidencias/login_error.png)
+![Error de login](../../evidencias/login_error.png)
 
 ---
 
@@ -36,7 +36,7 @@ Como usuario autenticado, quiero ver un menú con mi correo, para sentir que la 
 - Debe ofrecer opciones de guardar ubicación y cerrar sesión.
 
 **Evidencias:**  
-![Menú principal](evidencias/menu_principal.png)
+![Menú principal](../../evidencias/menu_principal.png)
 
 ---
 
@@ -50,9 +50,9 @@ Como usuario autenticado, quiero guardar mi ubicación GPS, para que quede regis
 - Se debe mostrar un mensaje confirmando que la ubicación fue guardada.
 
 **Evidencias:**  
-![Permisos GPS](evidencias/permiso_gps.png)  
-![Ubicación guardada](evidencias/ubicacion_guardada.png)  
-![Firebase con ubicación](evidencias/firebase_ubicacion.png)
+![Permisos GPS](../../evidencias/permiso_gps.png)  
+![Ubicación guardada](../../evidencias/ubicacion_guardada.png)  
+![Firebase con ubicación](../../evidencias/firebase_ubicacion.png)
 
 ---
 
@@ -65,7 +65,7 @@ Como usuario autenticado, quiero ver en pantalla mi última ubicación guardada,
 - Si no existe, debe mostrarse un guion (—).
 
 **Evidencias:**  
-![Última ubicación en menú](evidencias/menu_ultima_ubicacion.png)
+![Última ubicación en menú](../../evidencias/menu_ultima_ubicacion.png)
 
 ---
 
@@ -78,6 +78,6 @@ Como usuario, quiero poder cerrar sesión, para evitar que alguien más use mi c
 - No debe ser posible regresar al menú con el botón atrás.
 
 **Evidencias:**  
-![Cierre de sesión](evidencias/logout.png)
+![Cierre de sesión](../../evidencias/logout.png)
 
 ---
