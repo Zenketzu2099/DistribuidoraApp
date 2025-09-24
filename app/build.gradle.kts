@@ -55,4 +55,9 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.activity)
+
+    // --- Dependencias de pruebas ---
+    testImplementation(libs.junit4)                             // Unit tests (src/test)
+    androidTestImplementation(libs.androidx.test.ext.junit)     // Instrumented tests (src/androidTest)
+    androidTestImplementation(libs.androidx.test.espresso.core) // UI testing en instrumented tests
 }
