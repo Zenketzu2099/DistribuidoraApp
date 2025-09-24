@@ -28,7 +28,7 @@ class MenuActivity : AppCompatActivity() {
     private lateinit var btnGuardar: Button
     private lateinit var btnLogout: Button
 
-    // 👉 URL de tu Realtime Database
+    // URL Realtime Database
     private val DB_URL = "https://distribuidoraapp-f3647-default-rtdb.firebaseio.com/"
 
     // Pide permisos de ubicación solo cuando hace falta
